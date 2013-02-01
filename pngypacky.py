@@ -9,7 +9,7 @@ import struct
 # ---------------------------------------------------------------------------------------
 args = sys.argv[1:]
 if( len( args ) < 0 ):
-	print >> sys.stderr, """Usage: superpack.py directory-or-file directory-or-file...
+	print >> sys.stderr, """Usage: pngypacky.py directory-or-file directory-or-file...
   *  .js files explicitly listed on the command line will be eval()ed on load, 
      in the order in which they are mentioned on the command line. 
   *  All files will be provided as base64 encoded data: URIs in the PackedFiles 

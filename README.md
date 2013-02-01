@@ -7,7 +7,7 @@ Usage
 -----
 
 ```
-superpack.py directory-or-file directory-or-file...
+pngypacky.py directory-or-file directory-or-file...
 ```
 
 Any .js files explicitly listed on the command line will be eval()ed on load, in the order in which they are mentioned on the command line, in global scope.  
@@ -23,7 +23,7 @@ DecodeFile(base64_encoded_data_uri)
 e.g.
 
 ```
-superpack.py jquery.js code.js style.css image_directory > result.html
+pngypacky.py jquery.js code.js style.css image_directory > result.html
 ```
 
 Now when result.html is opened in a browser, code.js can do things like
